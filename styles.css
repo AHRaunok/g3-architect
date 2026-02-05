@@ -100,6 +100,7 @@ main>section{
 @media screen and (max-width:576px){
     header{
         padding:5px 20px;
+        max-width: 100%;
     }
     header nav{
         flex-direction: column;
@@ -117,5 +118,18 @@ main>section{
     }
     .team{
         flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,0.6fr);
+
+    }
+    .team-img-container img{
+        width:300px;
+        height:auto;
+    }
+    .feature{
+        max-width:80%;
+        margin:20px ,auto;
+        margin-left:0px;
     }
 }
